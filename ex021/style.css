@@ -1,0 +1,14 @@
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+    content: '  [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

@@ -1,0 +1,10 @@
+div{
+    display: inline-block;
+    background-color: rgba(40, 228, 203, 0.514);
+    border:1px solid black;
+    width:200px;
+    height: 200px;
+}
+div:hover{
+    background-color: rgb(245, 245, 3);
+}

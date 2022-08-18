@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outras Formatações </title>
+</head>
+<body>
+    <h1>outras Formatações</h1>
+    <h2>Códig--Fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em JvaScript</p>
+    <pre>
+        <code>
+            #include<stdio.h>
+
+            #include<stdio.h>
+            
+            float n1,n2,med;
+            
+            int main(){
+            //comandos de entrada
+            printf("Digite as notas\n");
+            scanf("%f%f",&n1,&n2);
+            
+            if(n1>=0 && n1<=10 && n2>=0 && n2<=10){ // verifica se n1 e n2 são válidas
+              med=(n1+n2)/2;
+             
+              if(med>=7){
+                printf("\nAprovado com media %.2f\n",med);
+                }
+                else if(med>=3 && med<7){
+                    printf("\nExame com media %.2f\n",med);
+                    }
+                    else{
+                        printf("\nReprovado com media %.2f\n",med);
+                        }
+            }//if
+            else{
+                printf("\Nota invalida\n");
+            }
+            return 0;	
+            }
+
+            }
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria um amigo meu <q>o computador e um burro muito rápido</q></p>
+    <h2>Abreviações</h2>
+    <p>Esou estudando <abbr title="Hipertext Markup language">HTML</abbr></p>
+    
+</body>
+</html>
