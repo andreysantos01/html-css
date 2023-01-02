@@ -6,8 +6,8 @@
 
 :root{
    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-   --fonte2:'Passion One', cursiva;
-   --fonte3:'Sriracha', cursiva;
+   --fonte2:'Passion One', cursive;
+   --fonte3:'Sriracha', cursive;
 }
 
 *{
@@ -30,7 +30,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 10vh;
+    font-size: 10vw;
 
 }
 header > p{
@@ -50,7 +50,10 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 4.5vh;
+    font-size: 3.5vw;
+}
+section> p{
+    padding: 2em;
 }
 
 section.normal{
@@ -58,12 +61,27 @@ section.normal{
     color:black
 }
 section.imagem>p{
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.342);
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    box-shadow: inset 6px 6px 1px 0px rgba(0, 0, 0, 0.103);
+    background-attachment: fixed;
+}
+section#img01{
+    background-image:url('/ex026/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+section#img02{
+    background-image: url('/ex026/imagens/background002.jpg');
+    background-size: cover;
+
 }
 footer{
     background-color: black;
